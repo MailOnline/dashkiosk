@@ -5,13 +5,14 @@
   "license": "ISC",
   "version": "2.7.8",
   "private": true,
-  "bin": {
-    "dashkiosk": "./server.js"
+  "main": {
+    "dashkiosk": "./dist/server.js"
   },
   "scripts": {
     "postinstall": "grunt dist",
     "start": "grunt dist && node dist/forever.js dist/server.js --port 81 --environment production",
-    "test": "grunt test"
+    "test": "grunt test",
+    "build": "grunt dist"
   },
   "repository": {
     "type": "git",
