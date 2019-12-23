@@ -10,7 +10,7 @@
   },
   "scripts": {
     "postinstall": "grunt dist",
-    "start": "node dist/forever.js dist/server.js --port $PORT",
+    "start": "grunt dist && node dist/forever.js dist/server.js --port 81 --environment production",
     "test": "grunt test"
   },
   "repository": {
