@@ -44,7 +44,7 @@
     "nodecastor": "~0.1.9",
     "pg": "~6.4.2",
     "respawn": "~2.0.0",
-    "sqlite3": "~4.0.9",
+    "sqlite3": "~4.2.0",
     "fsevents": "*"
   },
   "devDependencies": {
@@ -54,7 +54,7 @@
     "grunt-cli": "~0.1.13",
     "grunt-angular-templates": "~0.5.3",
     "grunt-autoprefixer": "~3.0.3",
-    "grunt-bower-task": "~0.4.0",
+    "grunt-bower-task": "~0.6.2",
     "grunt-browserify": "~4.0.0",
     "grunt-concurrent": "~2.0.1",
     "grunt-contrib-clean": "~0.6.0",
@@ -65,7 +65,7 @@
     "grunt-contrib-cssmin": "~0.13.0",
     "grunt-contrib-imagemin": "~1.0.1",
     "grunt-contrib-jshint": "~0.11.2",
-    "grunt-contrib-less": "~1.0.1",
+    "grunt-contrib-less": "~1.4.1",
     "grunt-contrib-uglify": "~0.9.1",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-env": "~0.4.1",
@@ -84,8 +84,8 @@
     "should": "~7.0.2",
     "should-http": "0.0.4",
     "socket.io-client": "~1.4.0",
-    "sqlite3": "~4.0.9",
-    "supertest": "~1.0.1",
+    "sqlite3": "~4.2.0",
+    "supertest": "~7.2.2",
     "time-grunt": "~1.2.1"
   },
   "engines": {
